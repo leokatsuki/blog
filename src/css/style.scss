@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+@import 'sass/colors';
+@import 'sass/typography';
+@import 'sass/spacing';
+
+
+body{
+    width: 100%;
+    background-color: #050607;
+}
+
+@import 'sass/layout';
+
+.add-button{
+    display: block;
+    border: 0;
+
+    background-color: green;
+    color: white;
+    font-size: 64px;
+
+    border-radius: 4px;
+
+    padding: 16px;
+}
+
+.remove-button{
+    display: block;
+    border: 0;
+
+    background-color: red;
+    color: white;
+    font-size: 64px;
+
+    border-radius: 4px;
+
+    padding: 16px;
+}
+
+button{
+    padding: 8px;
+
+    background-color: $white-normal;
+
+    border: 0;
+    border-radius: 4px;
+}
